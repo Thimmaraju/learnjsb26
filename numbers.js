@@ -86,9 +86,12 @@ console.log("QA Tester"+ "ejhgr")
 
 // "12"
 
-var currentTime = new Date()
+var raju = new Date()
 
-console.log(currentTime)
+console.log(raju)
 
 //dates - moment pakage 
 
+//console.log(raju.getVarDate)
+
+//moment

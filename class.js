@@ -71,23 +71,23 @@
 //constructor 
 
 
-class Vehicles{
+// class Vehicles{
 
-   constructor(num1, num2){
+//    constructor(num1, num2){
 
-       console.log(num1 + num2)
-   }
+//        console.log(num1 + num2)
+//    }
 
 
-   bus(){
+//    bus(){
 
-    console.log("this is Bus method")
-   }
-}
+//     console.log("this is Bus method")
+//    }
+// }
 
-const  raju = new  Vehicles(4,6)
+// const  raju = new  Vehicles(4,6)
 
-const  mohan = new  Vehicles(6,9)
+// const  mohan = new  Vehicles(6,9)
 
 
 
@@ -97,6 +97,70 @@ const  mohan = new  Vehicles(6,9)
 // if you dont define constructor, there will  be a empty constructor 
 
 
+
+//Keywords 
+
 // static 
 
 // this 
+
+
+class employee {
+
+    empname = "Raju" // non static variable 
+    static empplace = "Bangalore" // static varibale
+    constructor(){
+
+        console.log("this is a constructor")
+
+
+    }
+
+    displaymessage(){
+
+        console.log("Namaste Boss")
+    }
+
+    m1(){
+
+        console.log("thi is M1 Method")
+
+        this.displaymessage()
+    }
+
+    static m2(){
+
+        console.log("thi is M2 Method")
+
+
+    }
+
+    static m3(){
+
+        console.log("thi is M3 Method")
+
+        this.m2()
+    }
+
+}
+
+console.log(employee.empplace)
+
+employee.m3()
+
+// const emp1 = new employee()
+
+// emp1.m1()
+
+
+// Page Object Model - Design Patterns 
+
+//class 
+
+//   varibales 
+//   methods
+
+
+// create a object of the class 
+
+// class can have constructor 
