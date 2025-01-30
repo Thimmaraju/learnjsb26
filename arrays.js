@@ -137,3 +137,30 @@ console.log(arr13.indexOf(5))
 
 // forEach 
 // for Of
+
+
+
+
+
+// for(let i of arr15){
+
+//     console.log("loops starts")
+
+//     console.log(i)
+
+//     console.log("loop ends")
+// }
+
+
+arr15 = ["raju","mohan","Nagalakshmi","Mahalakshmi"]
+
+arr15.forEach(element => {
+
+    console.log("loops starts")
+
+    console.log(element)
+
+    console.log("loop ends")
+
+});
+
