@@ -72,3 +72,6 @@ const task = new Promise((resolve, reject) => {
     .then((result2) => step3(result2, false))
     .then((result3) => console.log(result3))
     .catch((error) => console.log(error));
+
+//===========================================================================
+
