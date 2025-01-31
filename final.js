@@ -1,37 +1,37 @@
 //callback
 
-function step1(value, callback) {
-    callback(value + 10, false); // The callback is called with the result and error flag
-  }
+// function step1(value, callback) {
+//     callback(value + 10, false); // The callback is called with the result and error flag
+//   }
   
-  step1(5, function(result, error) {
-    if (error) {
-      console.log("An error occurred");        
-    } else {
-      console.log("Result: " + result); // If no error, print the result
-    }
-  });
+//   step1(5, function(result, error) {
+//     if (error) {
+//       console.log("An error occurred");        
+//     } else {
+//       console.log("Result: " + result); // If no error, print the result
+//     }
+//   });
 
 
 //Promise 
 
 
-function step1(value) {
-    return new Promise((resolve, reject) => {
-      // Simulating the callback behavior
-      resolve(value + 10); // Resolving the promise with the result
-    });
-  }
+// function step1(value) {
+//     return new Promise((resolve, reject) => {
+//       // Simulating the callback behavior
+//       resolve(value + 10); // Resolving the promise with the result
+//     });
+//   }
   
-  step1(5)
-    .then(result => {
-      console.log("Result: " + result); // If promise is resolved, print the result
-    })
-    .catch(error => {
-      console.log("An error occurred"); // If promise is rejected, handle error
-    });
+//   step1(5)
+//     .then(result => {
+//       console.log("Result: " + result); // If promise is resolved, print the result
+//     })
+//     .catch(error => {
+//       console.log("An error occurred"); // If promise is rejected, handle error
+//     });
 
-// Async - Await 
+// // Async - Await 
 
 function step1(value) {
     return new Promise((resolve, reject) => {
@@ -49,3 +49,5 @@ function step1(value) {
   }
   
   run();
+
+

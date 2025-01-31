@@ -8,36 +8,36 @@
 //await must be used inside an async function.
 //=========================================================
 
-async function functionName() {
-    try {
-      const result = await someAsyncFunction();
-      console.log(result);
-    } catch (error) {
-      console.error("Error:", error.message);
-    }
-  }
+// async function functionName() {
+//     try {
+//       const result = await someAsyncFunction();
+//       console.log(result);
+//     } catch (error) {
+//       console.error("Error:", error.message);
+//     }
+//   }
 
-//=====================================================
+// //=====================================================
 
-async function myFunction() {
-    return "Hello";
-  }
+// async function myFunction() {
+//     return "Hello";
+//   }
 
-//or
-function myFunction() {
-    return Promise.resolve("Hello");
-  }
+// //or
+// function myFunction() {
+//     return Promise.resolve("Hello");
+//   }
 
 //===============================================
 
-const getData = async () => {
-    let y = await "Hello World";
-    console.log(y);
-}
+// const getData = async () => {
+//     let y = await "Hello World";
+//     console.log(y);
+// }
 
-console.log(1);
-getData();
-console.log(2);
+// console.log(1);
+// getData();
+// console.log(2);
 
 //=======================================================================
 
@@ -64,7 +64,7 @@ async function step1(value) {
     }
   }
   
-  run();
+//   run();
   
 
   //=====================================================
